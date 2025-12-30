@@ -1,0 +1,77 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "🌌 IOER HUB | Select Scripts 📢",
+   LoadingTitle = "Select Scripts",
+   LoadingSubtitle = "By IOER HUB",
+   ConfigurationSaving = {
+      Enabled = false,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Example Hub"
+   },
+})
+
+local MVSD = Window:CreateTab("🧍Information", nil)
+local Troll = Window:CreateTab("🖥️📱 Main Scripts", nil)
+local Jail = Window:CreateTab("📰 Change Logs", nil)
+local MainSection = Troll:CreateSection("Script Rayfield, Support for Mobile")
+
+Rayfield:Notify({
+   Title = "Notification Alert",
+   Content = "Thank You For Use This Scripts",
+   Duration = 5,
+   Image = 4483362458,
+   Actions = { -- Notification Buttons
+      Ignore = {
+         Name = "Okay!",
+         Callback = function()
+         print("The user tapped Okay!")
+      end
+   },
+},
+})
+
+local MainSection = MVSD:CreateSection("IOER Hub Creator")
+local Paragraph = MVSD:CreateParagraph({Title = "🛠️ Builder", Content = "Thetecnologyz"})
+local Paragraph = MVSD:CreateParagraph({Title = "👨‍💻 Programmer", Content = "Thetecnologyz"})
+local Paragraph = MVSD:CreateParagraph({Title = "💡 Idea", Content = "rex_del2"})
+local Paragraph = MVSD:CreateParagraph({Title = "🔗 Link Script", Content = "pastebin.com/u/ty4rds"})
+local Paragraph = MVSD:CreateParagraph({Title = "🔍 Script Search", Content = "Youtube | Pastebin.com | Scriptblox | Rscripts | Google"})
+local Paragraph = MVSD:CreateParagraph({Title = "⚠️ important information", Content = "This script is still in testing!, if there are any bugs or anything like that, sorry."})
+local MainSection = Jail:CreateSection("Lastest Update With Version")
+local Paragraph = Jail:CreateParagraph({Title = "V2.1.75", Content = "Add Script The Forge | Noclip
+local Paragraph = Jail:CreateParagraph({Title = "V2.1.75", Content = "More Detail"})
+local Paragraph = Jail:CreateParagraph({Title = "V2.1.75", Content = "If IOER HUB Will Be Down For A While!"})
+local MainSection = Jail:CreateSection("Unreleased")
+local Paragraph = Jail:CreateParagraph({Title = "V2.2.0", Content = "Add More Scripts"})
+local Paragraph = Jail:CreateParagraph({Title = "V2.2.0", Content = "More Detail"})
+
+local Paragraph = Troll:CreateParagraph({Title = "✅ Working All Device", Content = "This Script Can Be Used For All Devices"})
+local Button = Troll:CreateButton({
+   Name = "PREMIUM - RELEASE",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/IOERHUB/Main/refs/heads/main/Windows"))()
+   end,
+})
+
+local Paragraph = Troll:CreateParagraph({Title = "FREE - RELEASE", Content = "Coming Soon, Wait Until Update"})
+
+local MainSection = Troll:CreateSection("Script Fluent, Not Support for Mobile")
+local Paragraph = Troll:CreateParagraph({Title = "⚠️ Information", Content = "Fluent Scripts Cannot Be Used on Mobile Because the Scripts Are Too Large or Designed for Windows/Laptops"})
+local Button = Troll:CreateButton({
+   Name = "PREMIUM - RELEASE",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/IOERHUB/IOERHUB/refs/heads/main/Universal%20IOER"))()
+   end,
+})
+
+local Button = Troll:CreateButton({
+   Name = "FREE - RELEASE",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/IOERHUB/FREE/refs/heads/main/IOER%20HUB%20FREE"))()
+   end,
+})
+
+
+print("IOER HUB PC/LAPTOP loaded Successfully, Thanks for Using this script!")
+print("Created By IOER Hub, pastebin.com/u/ty4rds")
