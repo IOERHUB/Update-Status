@@ -41,7 +41,7 @@ local Paragraph = MVSD:CreateParagraph({Title = "🔗 Link Script", Content = "p
 local Paragraph = MVSD:CreateParagraph({Title = "🔍 Script Search", Content = "Youtube | Pastebin.com | Scriptblox | Rscripts | Google"})
 local Paragraph = MVSD:CreateParagraph({Title = "⚠️ important information", Content = "This script is still in testing!, if there are any bugs or anything like that, sorry."})
 local MainSection = Jail:CreateSection("Lastest Update With Version")
-local Paragraph = Jail:CreateParagraph({Title = "V2.1.75", Content = "Add Script The Forge | Noclip
+local Paragraph = Jail:CreateParagraph({Title = "V2.1.75", Content = "Add Script The Forge | Noclip"})
 local Paragraph = Jail:CreateParagraph({Title = "V2.1.75", Content = "More Detail"})
 local Paragraph = Jail:CreateParagraph({Title = "V2.1.75", Content = "If IOER HUB Will Be Down For A While!"})
 local MainSection = Jail:CreateSection("Unreleased")
