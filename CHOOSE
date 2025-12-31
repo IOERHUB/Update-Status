@@ -44,7 +44,7 @@ local Paragraph = MVSD:CreateParagraph({Title = "⚠️ important information", 
 local MainSection = Jail:CreateSection("Lastest Update With Version")
 local Paragraph = Jail:CreateParagraph({Title = "V2.2.0", Content = "Add Script Flick"})
 local Paragraph = Jail:CreateParagraph({Title = "V2.2.0", Content = "Change Select Scripts"})
-local Paragraph = Jail:CreateParagraph({Title = "V2.2.0", Content = "More Detail"})
+local Paragraph = Jail:CreateParagraph({Title = "V2.2.0", Content = "IOER HUB Now No Keyless!"})
 local MainSection = Jail:CreateSection("Unreleased")
 local Paragraph = Jail:CreateParagraph({Title = "V2.2.25", Content = "Add More Scripts"})
 local Paragraph = Jail:CreateParagraph({Title = "V2.2.25", Content = "More Detail"})
