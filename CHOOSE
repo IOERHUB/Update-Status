@@ -33,6 +33,7 @@ Rayfield:Notify({
 
 local MainSection = MVSD:CreateSection("Status IOER HUB")
 local Paragraph = MVSD:CreateParagraph({Title = "🟢 | Working", Content = "IOER HUB Working Now, Checking...."})
+local Paragraph = MVSD:CreateParagraph({Title = "✅ | Succesfully", Content = "IOER HUB Has Been Loaded, Enjoy!"})
 local MainSection = MVSD:CreateSection("IOER Hub Creator")
 local Paragraph = MVSD:CreateParagraph({Title = "🛠️ Builder", Content = "Thetecnologyz"})
 local Paragraph = MVSD:CreateParagraph({Title = "👨‍💻 Programmer", Content = "Thetecnologyz"})
