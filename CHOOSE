@@ -67,14 +67,14 @@ local Button = Troll:CreateButton({
 local MainSection = Troll:CreateSection("Script Fluent, Not Support for Mobile")
 local Paragraph = Troll:CreateParagraph({Title = "⚠️ Information", Content = "Fluent Scripts Cannot Be Used on Mobile Because the Scripts Are Too Large or Designed for Windows/Laptops"})
 local Button = Troll:CreateButton({
-   Name = "PREMIUM - RELEASE",
+   Name = "Main - Scripts",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/IOERHUB/IOERHUB/refs/heads/main/Universal%20IOER"))()
    end,
 })
 
 local Button = Troll:CreateButton({
-   Name = "FREE - RELEASE",
+   Name = "Main Scripts V2",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/IOERHUB/FREE/refs/heads/main/IOER%20HUB%20FREE"))()
    end,
