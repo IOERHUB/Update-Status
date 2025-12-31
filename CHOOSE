@@ -14,7 +14,7 @@ local Window = Rayfield:CreateWindow({
 local MVSD = Window:CreateTab("🧍Information", nil)
 local Troll = Window:CreateTab("🖥️📱 Main Scripts", nil)
 local Jail = Window:CreateTab("📰 Change Logs", nil)
-local MainSection = Troll:CreateSection("Script Rayfield, Support for Mobile")
+local MainSection = Troll:CreateSection("Script Rayfield, Support for Mobile And Windows")
 
 Rayfield:Notify({
    Title = "Notification Alert",
@@ -42,22 +42,27 @@ local Paragraph = MVSD:CreateParagraph({Title = "🔗 Link Script", Content = "p
 local Paragraph = MVSD:CreateParagraph({Title = "🔍 Script Search", Content = "Youtube | Pastebin.com | Scriptblox | Rscripts | Google"})
 local Paragraph = MVSD:CreateParagraph({Title = "⚠️ important information", Content = "This script is still in testing!, if there are any bugs or anything like that, sorry."})
 local MainSection = Jail:CreateSection("Lastest Update With Version")
-local Paragraph = Jail:CreateParagraph({Title = "V2.1.75", Content = "Add Script The Forge | Noclip"})
-local Paragraph = Jail:CreateParagraph({Title = "V2.1.75", Content = "More Detail"})
-local Paragraph = Jail:CreateParagraph({Title = "V2.1.75", Content = "If IOER HUB Will Be Down For A While!"})
-local MainSection = Jail:CreateSection("Unreleased")
-local Paragraph = Jail:CreateParagraph({Title = "V2.2.0", Content = "Add More Scripts"})
+local Paragraph = Jail:CreateParagraph({Title = "V2.2.0", Content = "Add Script Flick | Noclip"})
+local Paragraph = Jail:CreateParagraph({Title = "V2.2.0", Content = "Change Select Scripts"})
 local Paragraph = Jail:CreateParagraph({Title = "V2.2.0", Content = "More Detail"})
+local MainSection = Jail:CreateSection("Unreleased")
+local Paragraph = Jail:CreateParagraph({Title = "V2.2.25", Content = "Add More Scripts"})
+local Paragraph = Jail:CreateParagraph({Title = "V2.2.25", Content = "More Detail"})
 
 local Paragraph = Troll:CreateParagraph({Title = "✅ Working All Device", Content = "This Script Can Be Used For All Devices"})
 local Button = Troll:CreateButton({
-   Name = "PREMIUM - RELEASE",
+   Name = "Main - Scripts",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/IOERHUB/Main/refs/heads/main/Windows"))()
    end,
 })
 
-local Paragraph = Troll:CreateParagraph({Title = "FREE - RELEASE", Content = "Coming Soon, Wait Until Update"})
+local Button = Troll:CreateButton({
+   Name = "Main Scripts V2",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/IOERHUB/IOER-HUB-V2/refs/heads/main/Version%20V2"))()
+   end,
+})
 
 local MainSection = Troll:CreateSection("Script Fluent, Not Support for Mobile")
 local Paragraph = Troll:CreateParagraph({Title = "⚠️ Information", Content = "Fluent Scripts Cannot Be Used on Mobile Because the Scripts Are Too Large or Designed for Windows/Laptops"})
