@@ -42,7 +42,7 @@ local Paragraph = MVSD:CreateParagraph({Title = "🔗 Link Script", Content = "p
 local Paragraph = MVSD:CreateParagraph({Title = "🔍 Script Search", Content = "Youtube | Pastebin.com | Scriptblox | Rscripts | Google"})
 local Paragraph = MVSD:CreateParagraph({Title = "⚠️ important information", Content = "This script is still in testing!, if there are any bugs or anything like that, sorry."})
 local MainSection = Jail:CreateSection("Lastest Update With Version")
-local Paragraph = Jail:CreateParagraph({Title = "V2.2.0", Content = "Add Script Flick | Noclip"})
+local Paragraph = Jail:CreateParagraph({Title = "V2.2.0", Content = "Add Script Flick"})
 local Paragraph = Jail:CreateParagraph({Title = "V2.2.0", Content = "Change Select Scripts"})
 local Paragraph = Jail:CreateParagraph({Title = "V2.2.0", Content = "More Detail"})
 local MainSection = Jail:CreateSection("Unreleased")
